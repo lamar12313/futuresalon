@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Future Beauty Salon</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <img src="ChatGPT Image Jul 8, 2026, 12_02_23 AM.png" alt="Logo" class="logo-img">
+
+        <h2>Future Beauty Salon</h2>
+
+    </div>
+
+    <a href="index.html" class="btn">← Back to Home</a>
+
+</nav>
+</nav>
+
+<section class="booking">
+
+    <div class="booking-box">
+
+        <h1 id="bookingTitle">
+            Book Your Appointment
+        </h1>
+
+        <p id="bookingText">
+            Reserve your beauty session in just a few steps.
+        </p>
+
+        <form id="bookingForm">
+
+            <input type="text"
+                   id="name"
+                   placeholder="Full Name"
+                   required>
+
+            <input type="tel"
+                   id="phone"
+                   placeholder="Phone Number"
+                   required>
+
+            <select id="service" required>
+
+                <option value="" id="serviceOption">
+                    Choose a Service
+                </option>
+
+                <option id="hairOption">
+                    Hair Styling
+                </option>
+
+                <option id="bridalOption">
+                    Bridal Makeup
+                </option>
+
+                <option id="partyOption">
+                    Party Makeup
+                </option>
+
+                <option id="nailsOption">
+                    Nails
+                </option>
+
+                <option id="lashesOption">
+                    Lashes
+                </option>
+
+                <option id="washOption">
+                    Hair Wash
+                </option>
+
+                <option id="detoxOption">
+                    Scalp Detox
+                </option>
+
+                <option id="crownOption">
+                    Bridal Crown Installation
+                </option>
+
+            </select>
+
+            <input type="date" id="date" required>
+
+            <input type="time" id="time" required>
+
+            <textarea id="notes"
+                      rows="5"
+                      placeholder="Notes"></textarea>
+
+            <button type="submit"
+                    class="btn"
+                    id="confirmBtn">
+                Confirm Booking
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+        </form>
+
+    </div>
+
+</section>
+
+<script src="booking.js"></script>
+
+</body>
+</html>
